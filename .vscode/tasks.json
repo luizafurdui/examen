@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile C Program",
+            "type": "shell",
+            "command": "gcc",
+            "args": ["-g", "prim.c", "-o", "prim.exe"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
